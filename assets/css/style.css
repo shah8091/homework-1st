@@ -5,17 +5,26 @@
 }
 
 body {
-    background-color: black
+    background-color: #d9dcd6;
 }
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff; 
-    text-align: center;
-    font-weight: 300;
+    color:#black; 
+    margin:#center;
+   
+    
 }
+
+.header h1 {
+    display:-moz-grid-line
+    font-size: 50px;
+}
+
+
+
 
 .listItem, ul, li{
     margin-left: 150px;
@@ -30,7 +39,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color:#1b0c0c;
     text-decoration: none;
 }
 
